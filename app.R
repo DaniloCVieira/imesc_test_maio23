@@ -65,7 +65,7 @@ ui <- fluidPage(
     tags$link(rel = "stylesheet", href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css")
   ),
   mainPanel(
-    div(class = "title", "Version Not Available"),
+    div(class = "title", "iMESc version Not Available"),
     div(class = "subtitle", "Sorry, the iMESc version you are trying to run is not available."),
     div(class = "subtitle", "Please run the following code to access the application:"),
     uiOutput("codeOutput")
